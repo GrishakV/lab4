@@ -26,4 +26,4 @@ if __name__ == '__main__':
         k += 1
 
     # Вывести значение функции
-    print(f"Ei({x}) = {EULER + math.log(math.fabs(x))+ S}")
+    print(f"Ei({x}) = {EULER + math.log1p(math.fabs(x))+ S}")
