@@ -4,7 +4,7 @@
 import sys
 import math
 
-
+# Вариант 6
 if __name__ == '__main__':
     print("a * x^2 + b * x + c < 0")
     a = float(input("Введите a: "))

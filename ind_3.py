@@ -3,7 +3,7 @@
 
 amoeba = 1
 
-
+# Вариант 5
 for i in range(amoeba, 6, 3):
     amoeba *= 2
     print(f"{amoeba}")
