@@ -5,6 +5,8 @@ import sys
 import math
 
 # Вариант 6
+# Решить квадратное неравенство ax^2+bx+c>0 (a != 0), где
+# a, b и c - действительные числа.
 if __name__ == '__main__':
     print("a * x^2 + b * x + c < 0")
     a = float(input("Введите a: "))
