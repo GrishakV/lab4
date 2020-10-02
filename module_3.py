@@ -8,10 +8,10 @@ if __name__ == '__main__':
     n = int(input("Value of n? "))
     x = float(input("Value of x? "))
 
-S = 0.0
+    S = 0.0
 
-for k in range(1, n + 1):
-    a = math.log10(k * x) / (k * k)
-    S += a
+    for k in range(1, n + 1):
+        a = math.log10(k * x) / (k * k)
+        S += a
 
-print(f"S = {S}")
+    print(f"S = {S}")
