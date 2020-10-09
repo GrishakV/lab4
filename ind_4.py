@@ -3,10 +3,10 @@
 
 import math
 import sys
-
 # Вариант 4
 EULER = 0.5772156649015328606
 ESP = 1e-10
+
 
 if __name__ == '__main__':
     x = float(input("Введите х: "))
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     S, n = a, 1
 
     while math.fabs(a) > ESP:
-        a *= (2 * x * n) / (2 * n + 1) ** 2
+        a *= (x * x * 2 * n) / (((2 * n + 2) ** 2) * (2 * n + 1))
         S += a
         n += 1
 
